@@ -1,0 +1,13 @@
+﻿<Window x:Class="ExcelRead.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelRead"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Command="{Binding ReadExcelCommand}" Content="Excel Oku" Width="120" Margin="10,10,0,0" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top"/>
+        <Button Command="{Binding ExportExcelCommand}" Content="Dışa Aktar" Width="120" Margin="135,10,0,0" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
